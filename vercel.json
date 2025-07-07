@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/lowfinder.py", "use": "@vercel/python" }
+    { "src": "lowfinder.py", "use": "@vercel/python" }
   ],
   "routes": [
-    { "src": "/lowfinder", "dest": "api/lowfinder.py" }
+    { "src": "/lowfinder", "dest": "lowfinder.py" }
   ]
 }
